@@ -41,5 +41,5 @@ I created a function separate from the main function, responsible for carrying o
 
 So I capture the size of S and T and create a variable to store the number of letters in common. I do a loop to calculate and then using the 'Ops' variable I calculate the number of operations needed. 
 
-Then I return a boolean with 'Oops' <= k.
+Then I return a boolean with 'Ops' <= k.
 
