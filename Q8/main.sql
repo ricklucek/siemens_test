@@ -1,0 +1,24 @@
+-- table creating
+CREATE TABLE dogs(
+id INTEGER NOT NULL PRIMARY KEY,
+name VARCHAR(50) NOT NULL);
+
+CREATE TABLE cats(
+id INTEGER NOT NULL PRIMARY KEY,
+name VARCHAR(50) NOT NULL);
+
+-- table population
+INSERT INTO cats VALUES (1, 'AAA');
+INSERT INTO cats VALUES (2, 'BBB');
+INSERT INTO cats VALUES (3, 'CCC');
+INSERT INTO cats VALUES (4, 'DDD');
+INSERT INTO cats VALUES (5, 'EEE');
+
+INSERT INTO dogs VALUES (1, 'DDD');
+INSERT INTO dogs VALUES (2, 'EEE');
+INSERT INTO dogs VALUES (3, 'FFF');
+INSERT INTO dogs VALUES (4, 'GGG');
+INSERT INTO dogs VALUES (5, 'HHH');
+
+-- SELECT instruction
+SELECT name FROM cats UNION SELECT name FROM dogs;

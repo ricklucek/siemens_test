@@ -1,0 +1,9 @@
+Problem #1
+I have a relation ABC. 
+
+What are the sequence of commands to determine its structure?
+
+bq                  -> init program
+rel ABC             -> access data structure
+di                  -> Display data structure
+x                   -> exit

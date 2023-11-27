@@ -1,0 +1,17 @@
+Problem #2
+
+I have a relation XYZ.                          
+Its structure is noted below:    
+
+XYZ =  { file (B1) of } record
+  B1   : integer;     { block number   B1
+  Name : Char8;       { B1 name
+end;   
+
+What are the sequence of commands to read the first and last records of relation XYZ?
+
+bq                  -> init program
+rel XYZ             -> access data structure
+rel 0               -> read first record
+rel -1              -> read last reacord
+x                   -> exit

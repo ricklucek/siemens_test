@@ -1,0 +1,11 @@
+Problem #3
+Continuing with relation XYZ
+
+What are the sequences of commands to read key value 10 and the next 2 records?
+
+bq                  -> init program
+rel XYZ             -> access data structure
+rel 10              -> read key value 10
+rel n               -> read key value 11
+rel n               -> read key value 12
+x                   -> exit
